@@ -61,7 +61,7 @@ def delka_slov_bez_interpunkce(text): # funkce pro očištění textu o interpuk
 
 def zobraz_vysledek(text): # Výpis tabulky po analýze vybraného textu
     delky_slov = delka_slov_bez_interpunkce(text)
-
+    print(dots)
     print("LEN |   OCCURENCES   | NR.")
     print("-" * 35)
 
